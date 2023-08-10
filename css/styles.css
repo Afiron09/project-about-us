@@ -78,6 +78,8 @@ button {
 }
 .aboutus-container {
   display: flex;
+  padding-left: 0;
+  padding-right: 0;
 }
 .aboutus-title {
   position: relative;
@@ -146,8 +148,8 @@ button {
 }
 
 .aboutus-img {
-  max-width: 375px;
-  height: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ------------------------------------------------------ */
@@ -162,6 +164,10 @@ button {
   }
   .aboutus-item:not(:last-child) {
     margin-bottom: 30px;
+  }
+  .text-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
