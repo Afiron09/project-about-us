@@ -72,19 +72,21 @@ button {
 }
 
 /* --------------ABOUT US MOBILE-------------- */
+
 .aboutus {
-  padding: 64px 0;
-  background-color: #f7faff;
+  padding-top: 64px;
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
   .aboutus {
     padding-top: 36px;
-    padding-bottom: 100px;
   }
 }
 
-. .aboutus-container {
+.aboutus-container {
 }
 .aboutus-title {
   position: relative;
@@ -114,9 +116,20 @@ button {
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 42px; /* 150% */
+  line-height: 42px;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .aboutus-subtitle {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+}
+
 .aboutus-subtext {
   margin-bottom: 30px;
   color: var(--text-color);
@@ -124,8 +137,28 @@ button {
   font-style: normal;
   font-weight: 400;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .aboutus-subtext {
+    font-size: 18px;
+  }
+}
+
 .aboutus-list {
   margin-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .aboutus-list {
+    margin-bottom: 66px;
+  }
 }
 
 .img-wrapper {
@@ -134,11 +167,27 @@ button {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .text-wrapper {
+    width: 576px;
+    margin: 0 auto;
+  }
+}
+
 .aboutus-item {
 }
 
 .aboutus-item:not(:last-child) {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 
 .aboutus-number {
@@ -153,6 +202,13 @@ button {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
 .aboutus-text {
   max-width: 170px;
   margin-bottom: 64px;
@@ -164,7 +220,8 @@ button {
   font-weight: 400;
 }
 
-.aboutus-img {
-  width: 375px;
-  height: 400px;
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
